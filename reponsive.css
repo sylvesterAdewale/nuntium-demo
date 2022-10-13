@@ -1,0 +1,257 @@
+@media only screen and (max-width: 1024px) {
+body {
+    font-size: 12px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.menu {
+    position: absolute;
+    background-color: #ffffff;
+    top: 12vh;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    left: 0;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px #1c1c1c31;
+    transform: translateX(-100%);
+    transition: transform 300ms ease-in-out;
+}
+.menu ul {
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+}
+.menuactive {
+    transform: translateX(0%) !important;
+}
+.cancel .b-one {
+    transform: rotate(-45deg) translate(-5px,6px);
+
+}
+.cancel .b-two {
+    display: none;
+}
+.cancel .b-three {
+    transform: rotate(45deg);
+}
+.burger div{
+    transition: all 500ms ease;
+}
+.burger {
+    display: block;
+}
+
+.logo svg {
+    width: 130px;
+    
+}
+.hero {
+    padding-bottom: 3em;
+    margin: 0;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.h-content {
+    width: 70%;
+    margin: 0;
+    padding: 30px;
+}.h-content h3 {
+    font-size: 16px;
+}.h-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+}.h-content .meta p {
+    font-size: 12px;
+}.h-content .meta p .sm {
+    font-size: 11px;
+}
+.h-content p {
+    font-size: 14px;
+}
+.border h2{
+    font-size: 35px;
+}
+
+.mini {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s-mini {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.s-content {
+    margin: 0;
+}.s-content h3 {
+    font-size: 16px;
+}.s-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+}.s-content .meta p {
+    font-size: 12px;
+}.s-content .meta p .sm {
+    font-size: 11px;
+}
+.s-content p {
+    font-size: 14px;
+}
+
+.m-content {
+    margin: 0;
+}.m-content h3 {
+    font-size: 16px;
+}.m-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+}.m-content .meta p {
+    font-size: 12px;
+}.m-content .meta p .sm {
+    font-size: 11px;
+}
+.m-content p {
+    font-size: 14px;
+}
+.lower-hero {
+    padding-bottom: 3em;
+    margin: 0;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.last {
+    margin: auto 1vh;
+    justify-content: center;
+}
+.l-content {
+    width: 70%;
+    margin: 0;
+    padding: 30px;
+}.l-content h3 {
+    font-size: 16px;
+}.l-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+}.l-content .meta p {
+    font-size: 12px;
+}.l-content .meta p .sm {
+    font-size: 11px;
+}
+.l-content p {
+    font-size: 14px;
+}
+.l-tags{
+    display: none;
+}
+.bh-content {
+    width: 90%;
+}
+
+
+ /* Dashboard */
+
+.obj-box {
+    display: block;
+}
+.box-one {
+    margin-bottom: 10px;
+}
+.sidebar {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: transform 200ms ease-in-out;
+}
+.d-main {
+    margin-top: 1vh;
+}
+.wrapper {
+    display: block;
+}
+.s-active {
+    transform: translateX(0%);
+}
+.color .b-one {
+    background-color: white;
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.color .b-two {
+    display: none;
+}
+.color .b-three {
+    background-color: white;
+    transform: rotate(45deg);
+}
+.color {
+    position: absolute;
+    position: fixed;
+    padding-left: 140px;
+}
+.header .logo {
+    display: block;
+}
+.graph {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.prof-head {
+    width: 90%;
+    display: block;
+}
+.p-content {
+    padding: 0;
+}
+.b-top, .f-top, .d-top {
+    display: block;
+    margin: 20px;
+    padding: 0;
+}
+.line1, .line2 {
+    display: none;
+}
+.black {
+    margin: 0;
+    padding: 10px;
+}
+.fcn-img, .bcn-img, .d-img1, .d-img2, .d-img3 {
+    padding: 30% 45%;
+    margin: 0;
+}
+.fcn {
+    font-size: 12px;
+    margin: 0;
+}
+.dcn, .dcn-img {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.dcn-img {
+    display: none;
+}
+.b-conty p, .dcn, .fcn, .bcn, .b-cont p {
+    width: 100%;
+}
+.c_head {
+    margin: 5vh 0;
+}
+.picks {
+    margin: 0;
+}
+.side {
+    width: 100%;
+
+}
+.tags ul {
+    padding: 0;
+}
+
+
+
+}
+
